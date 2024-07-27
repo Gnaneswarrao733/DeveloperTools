@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Tools</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .body {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        font-family: Arial, sans-serif;
+    }   
+    header {
+        height: 100px;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 0 15px;
+        position: relative;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        transition: 0.4s all;
+    }
+    nav ul li a:hover {
+        color: black;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    nav ul li .sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: gray;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        padding: 10px;
+        width: 180px;
+        text-align: left;
+    }
+    nav ul li:hover .sub-menu {
+        display: block;
+    }
+    .sub-menu li {
+        margin: 20px 0;
+    }
+    .sub-menu li a {
+        color: black;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+        text-align: center;
+    }
+    .sub-menu li a:hover {
+        color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #btn{
+        text-decoration: none;
+        color: rgb(247, 243, 243);
+        background-color: rgb(55, 156, 224);
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    #btn:hover{
+        background-color: gray;
+        color: white;
+    }
+
+        .page {
+            height: 990px;
+            background-size: cover;
+            background-image: no-repeat;
+            background-image: url(https://www.slj.com/binaries/content/gallery/Jlibrary/2022/02/2202-techtool-create-connect-f.jpg);
+        }
+        .page h1 {
+            position: absolute;
+            font-size: 10em;
+            margin-left: 3%;
+           padding-top: 5%;
+        }
+        .page1 h1 {
+            margin-top: 3%;
+            font-size: 3em;
+            margin-left: 4%;
+        }
+        .page1 #h1 {
+            position: absolute;
+            font-size: 1.3em;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        .page1 #p1 {
+            position: absolute;
+            font-size: 20px;
+            margin-top: 3.1%;
+            margin-left: 17.5%;
+        }
+        .page1 #p2 {
+            margin-left: 5%;
+            font-size: 20px;
+            margin-top: 7%;
+            margin-right: 10%;
+        }
+        .page1 img  {
+            margin-top: 2%;
+            height: 360px;
+            width: 580px;
+            margin-right: 5%;
+        }
+        .page1 .Education {
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-right: 50%;
+        }
+        .page1 .Education li {
+            font-size: 19px;
+            padding: 1%;
+        }
+        .page1 #code {
+            margin-left: 6%;
+            height: 330px;
+            width: 550px;
+        }
+        .page1 .code  {
+            margin-top: 5%;
+            position: absolute;
+            margin-left: 55%;
+            font-size: 20px;
+            margin-right: 6%;
+        }
+        .page1 .code li {
+            padding: 2%;
+        }
+        .page1 #h2 {
+            position: absolute;
+            margin-top: 29%;
+            font-size: 3.3em;
+            margin-left: 5%;
+        }
+        .page1 #Systems {
+            margin-top: 33%;
+            margin-right: 6%;
+            height: 240px;
+            width: 480px;
+        }
+        .page1 .Systems {
+            margin-top: 35%;
+            position: absolute;
+            margin-left: 6%;
+            font-size: 20px;
+            margin-right: 10%;
+        }
+        .page1 .Systems li {
+            padding: 1.5%;
+        }
+        .page1 #h3 {
+            position: absolute;
+            margin-top: 56%;
+            font-size: 3.3em;
+            margin-left: 10%;
+        }
+        .page1 #h4 {
+            position: absolute;
+            margin-top: 56%;
+            font-size: 3.3em;
+            margin-left: 53%;
+        }
+        .page1 #img3 {
+            margin-top: 39%;
+            margin-left: 5%;
+            height: 335px;
+            width: 530px;
+        }
+        .page1 #img4 {
+            margin-top: 15%;
+            margin-right: 5%;
+            height: 335px;
+            width: 530px;
+        }
+        .page1 .Tools {
+            margin-top: 94%;
+            position: absolute;
+            margin-left: 7%;
+            font-size: 20px;
+            margin-right: 10%;
+        }
+        .page1 .Tools li {
+            padding: 1.5%;
+        }
+        .page1 .Design {
+            margin-top: 94%;
+            position: absolute;
+            margin-left: 56%;
+            font-size: 20px;
+            margin-right: 5%;
+        }
+        .page1 .Design li {
+            padding: 1.5%;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="technews.css">
+    <title>Tech Topics</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/images/logo.jpg"  alt="Logo" height="100px" width="200px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li>
+                        <a href="#news">News <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="technews.html">News</a></li>
+                            <li><a href="#community">Tech Community</a></li>
+                            <li><a href="#tools">Tech Tools</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#innovation">Innovation</a></li>
+
+                    <a href="#" id="btn">Subscribe</a>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="page">
+        <h1>Tech Tools</h1>
+    </div>
+    <div class="page1">
+        <h1>Developer Tools:</h1>
+        <h3 id="h1">Developer Tools</h3>
+        <p id="p1">(or "development tools" or short "DevTools") are programs that allow a developer to create, test and debug software.</p>
+        <p id="p2">Current browsers provide integrated developer tools, which allow to inspect a website. They let users inspect and debug the page's <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS">CSS</a>, and <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript">JavaScript</a>, allow to inspect the network traffic it causes, make it possible to measure its performance, and much more.</p>
+        <h1>Learning and Education</h1>
+        <img  src="images/img32.jpg" alt=""  style="float:right">
+        <ul class="Education">
+        <h2>Online Courses and Tutorials</h2>
+        <li><a href="https://www.udemy.com/">Udemy:</a> Courses on various programming languages and technologies</li>
+        <li><a href="https://www.coursera.org/">Coursera:</a> University-style courses on computer science and software development.</li>
+        <li><a href="https://www.edx.org/">edX:</a> Offers online courses from institutions like MIT and Harvard.</li>
+        </ul>
+        <ul class="Education">
+            <h2>Documentation and Reference</h2>
+            <li><a href="https://www.w3schools.com/">W3Schools:</a> Tutorials and references on web development languages</li>
+            <li><a href="https://javascript.info/">JavaScript.info:</a> In-depth guide and tutorials on JavaScript.</li>
+            <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs:</a> Comprehensive resource for web development, including HTML, CSS, and JavaScript</li>
+        </ul>
+
+        <h1>Code Editors and IDEs</h1>
+        <img id="code" src="images/img33.jpg" alt=""  style="float:left">
+        <ul class="code">
+            <li><a href="https://code.visualstudio.com/">Visual Studio Code:</a> Highly customizable, supports many languages and extensions.</li>
+            <li><a href="https://www.sublimetext.com/">Sublime Text:</a> Lightweight and fast code editor.</li>
+            <li><a href="https://github.blog/news-insights/product-news/sunsetting-atom/">Atom:</a> Open-source code editor with a focus on modularity.</li>
+            <li><a href="https://www.jetbrains.com/idea/">IntelliJ IDEA:</a> Powerful IDE, particularly strong for Java, Kotlin, and other JVM languages.</li>
+        </ul>
+        <h1 id="h2"> Version Control Systems</h1>
+        <img id="Systems" src="images/img34.png" alt=""  style="float:right">
+        <ul class="Systems">
+            <li><a href="https://git-scm.com/">Git:</a> Distributed version control system, essential for modern development.</li>
+            <li><a href="https://github.com/">GitHub:</a> Hosting service for Git repositories with collaboration features.</li>
+            <li><a href="https://about.gitlab.com/">GitLab:</a> Integrated CI/CD platform with Git repository management.</li>
+            <li><a href="https://bitbucket.org/">Bitbucket:</a> Git repository hosting with built-in CI/CD.</li>
+        </ul>
+        <h1 id="h3">Testing Tools</h1>
+        <h1 id="h4">Database Management Tools</h1>
+        <img id="img3" src="images/img35.webp" alt=""  style="float:left">
+        <img id="img4" src="images/img36.webp" alt=""  style="float:right">
+        <ul class="Tools">
+            <li><a href="https://jestjs.io/">Jest:</a> JavaScript testing framework with a focus on simplicity.</li>
+            <li><a href="https://mochajs.org/">Mocha:</a> Flexible testing framework for JavaScript.</li>
+            <li><a href="https://junit.org/junit5/">JUnit:</a> Popular testing framework for Java.</li>
+            <li><a href="https://www.selenium.dev/">Selenium:</a> Tool for automating web browsers for testing purposes.</li>
+        </ul>
+        <ul class="Design">
+            <li><a href="https://www.pgadmin.org/">pgAdmin: </a> Management tool for PostgreSQL databases.</li>
+            <li><a href="https://www.mongodb.com/products/tools/compass">MongoDB Compass:</a> GUI for managing MongoDB databases.</li>
+            <li><a href="https://www.mysql.com/products/workbench/">MySQL Workbench:</a> Visual tool for MySQL database design, development, and administration.</li>
+        </ul>
+
+    </div>
+</body>
+</html>
